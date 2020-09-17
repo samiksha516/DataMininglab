@@ -1,0 +1,17 @@
+@relation Student
+
+
+@attribute name STRING
+@attribute rollnumber NUMERIC
+@attribute age NUMERIC
+@attribute status{pass,fail}
+@attribute branch {CSE,ECE,EEE,IT}
+@attribute dob date "yyyy-MM-dd"
+
+
+@data
+
+samiksha,516,20,pass,CSE,"2000-08-01"
+harshini,522,20,pass,CSE,"2000-04-17"
+nikitha,507,20,pass,CSE,"1999-12-06"
+jahnavi,123,21,pass,CSE,"1998-07-21"
